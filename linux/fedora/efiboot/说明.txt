@@ -1,0 +1,7 @@
+\EFI\BOOT\grub.cfg
+
+\isolinux\isolinux.cfg
+
+中更改root=live:CDLABEL=OSINSTALL
+
+osinstall 为u盘的名称

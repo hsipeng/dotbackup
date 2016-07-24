@@ -1,0 +1,25 @@
+ 网易云音乐命令行版本：
+
+高品质网易云音乐命令行版本，简洁优雅，丝般顺滑，基于Python编写。使用Python2.7开发。
+
+源码地址：https://github.com/darknessomi/musicbox
+
+1.安装setuptools
+
+sudo apt-get install python-setuptools
+
+2.安装pyhton-pip
+
+sudo apt-get install python-pip
+
+3.执行安装命令
+
+sudo pip2 install NetEase-MusicBox
+sudo apt-get install mpg123
+
+
+网易云音乐图形版本：
+
+直接进入官网下载.deb安装包（http://music.163.com/download）安装即可：
+sudo apt-get -f install
+sudo dpkg -i netease-cloud-music_0.9.0-2_amd64.deb

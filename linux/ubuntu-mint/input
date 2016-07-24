@@ -1,0 +1,35 @@
+安装ibus拼音
+第一：安装IBus框架，
+sudo apt-get install ibus ibus-clutter ibus-gtk ibus-gtk3 ibus-qt4 im-config
+
+启动IBus框架，在终端输入：
+im-config
+
+配置文件位置： /usr/share/im-config/data/20_ibus.rc
+修改：
+/usr/bin/ibus-daemon --daemonize --xim --panel=disable
+改为
+/usr/bin/ibus-daemon --daemonize --xim --replace --restart
+
+
+Ubuntu中文输入法IBUS的安装
+第一：安装IBus框架，
+sudo apt-get install ibus ibus-clutter ibus-gtk ibus-gtk3 ibus-qt4
+启动IBus框架，在终端输入：
+im-switch -s ibus
+安装完IBus框架后注销系统，保证更改立即生效。
+第三步：安装拼音引擎
+ 
+有下面几种常用选择：
+IBus拼音：sudo apt-get install ibus-pinyin
+IBUS五笔：sudo apt-get install ibus-table-wubi
+谷歌拼音输入法：sudo apt-get install ibus-googlepinyin
+Sun拼音输入法：sudo apt-get install ibus-sunpinyin
+第四步：设置IBus框架  
+ibus-setup
+设置IBUS
+
+第五步：通常情况下，IBus图标（一个小键盘）会出现在桌面右上角的任务栏中。有时候这个图标会自行消失，可使用以下命令，找回消失的IBus图标：
+ibus-daemon -drx
+
+

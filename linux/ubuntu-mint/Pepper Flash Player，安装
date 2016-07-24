@@ -1,0 +1,5 @@
+Ubuntu 14.04及衍生版本用户命令：因为默认库里面有Chromium和Pepper Flash Player，安装非常容易，打开终端，输入以下命令：
+sudo apt-get update 
+sudo apt-get install chromium-browser 
+sudo apt-get install pepperflashplugin-nonfree 
+sudo update-pepperflashplugin-nonfree --install

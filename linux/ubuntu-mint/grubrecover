@@ -1,0 +1,16 @@
+sudo mount /dev/sdXY /mnt   #root mount
+sudo mount --bind /proc /mnt/proc
+sudo mount --bind /dev /mnt/dev
+sudo mount --bind /sys /mnt/sys
+sudo mount /dev/sdb2 /mnt/boot/efi
+sudo chroot /mnt
+#grub-install /sd#
+update-grub
+
+kai ji hou 
+
+sudo blkid
+
+uuid
+/etc/fstab
+
