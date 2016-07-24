@@ -1,0 +1,25 @@
+
+
+iwconfig
+
+iwconfig wlan0 txpower on
+
+#scan
+sudo iw dev wlan0 scan | less 
+sudo iw dev wlan0 scan | grep SSID
+
+#add
+iwconfig wlan0 essid "essid"
+
+ifconfig wlan0 up
+
+dhclient/dhcpcd wlan0
+
+
+#wpa wpa2
+sudo wpa_passphrase essid keys > ~/wifi.conf
+
+sudo wpa_supplicant -i wlan0 -c ~/wifi.conf
+
+sudo dhclient wlan0
+
