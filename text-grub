@@ -1,0 +1,23 @@
+正确方法如下（亲测13.10和14.04Beta2）
+
+第一步：
+代码:
+一、查看文件/etc/init/rc-sysinit.conf，在第14行附近：确认“env DEFAULT_RUNLEVEL=2”。2是新装系统默认的，确保不被修改。
+二、编辑文件 /etc/init/lightdm.conf，在第12行附近，原句“ and runlevel [!06]” 改为“ and runlevel [!026]”。
+
+第二步：
+代码:
+编辑/etc/default/grub
+把
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+改成
+GRUB_CMDLINE_LINUX_DEFAULT="text"
+其实只要把"quiet splash"修改为其它字符就可以了，这是系统启动是ubuntu那个logo和下面那个闪动的小亮点。
+别忘了update一下grub
+
+第三步：
+代码:
+想进入X，直接startx，绝对装B利器！
+
+
+不要问我是谁，我的名字叫雷锋。
