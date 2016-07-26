@@ -13,3 +13,5 @@ musicbox 网易云音乐
 alsamixer volume change
 fdisk -l  disk list
 mkfs.vfat -l /dev/sdb   format u disk
+inxi -Fi  systeminfo 
+speedtest-cli  speed test
