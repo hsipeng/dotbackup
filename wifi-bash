@@ -17,6 +17,10 @@ dhclient/dhcpcd wlan0
 
 
 #wpa wpa2
+sudo iwconfig wlan0 txpower on
+
+sudo ifconfig wlan0 up
+
 sudo wpa_passphrase essid keys > ~/wifi.conf
 
 sudo wpa_supplicant -i wlan0 -c ~/wifi.conf
