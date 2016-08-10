@@ -1,0 +1,6 @@
+I made PPA repository for xenial version, and disabled Apps section:
+https://launchpad.net/~trebelnik-stefina/+archive/ubuntu/ubuntu-tweak
+Type in terminal:
+sudo add-apt-repository ppa:trebelnik-stefina/ubuntu-tweak
+sudo apt-get update
+sudo apt-get install ubuntu-tweak

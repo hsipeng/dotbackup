@@ -1,0 +1,62 @@
+Fix time differences between Ubuntu and Windows
+
+
+A. 
+
+For Ubuntu 16.04 and newer, run the following command (thanks to Erwinson Pagtalunan for the update!):
+
+timedatectl set-local-rtc 1
+
+
+You can then check if Ubuntu uses local time, you can then use the following command:
+timedatectl
+
+
+
+sudo sed -i 's/UTC=yes/UTC=no/' /etc/default/rcS
+
+
+And then reboot.
+
+
+B. To fix this from Windows (it should work with Vista SP2, Windows 7, Server 2008 R2 and Windows 8/8.1)
+
+Then, to disable the Windows Time service ÔËÐÐ WindowsTimeFixUTC.reg
+
+sc config w32time start= disabled
+
+And reboot.
+
+
+
+
+How to revert the changes
+
+
+A. From Ubuntu:
+
+Ubuntu 16.04 and newer: to revert the changes, simply run the following command:
+timedatectl set-local-rtc 0
+
+Ubuntu versions older than 16.04: all you have to do is replace "UTC=no" with "UTC=yes" in the /etc/default/rcS file. To do this automatically, copy/paste the command below in a terminal:
+
+sudo sed -i 's/UTC=no/UTC=yes/' /etc/default/rcS
+
+And then reboot your computer.
+
+
+B. From Windows: reverting this change is a bit more complicated from Windows. 
+
+Firstly, open the .reg file downloaded when applying the fix for Windows (see download link above) with a text editor and change the "RealTimeIsUniversal" value from "dword:00000001" to "-" (without the quotes). Here's how the file should look like after making this change:
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]
+"RealTimeIsUniversal"=-
+
+
+Then save the file and double click it. 
+
+Next, run the following command in Command Prompt (which you need to run as Administrator) to re-enable the Windows Time service:
+sc config w32time start= demand
+And finally, reboot.
