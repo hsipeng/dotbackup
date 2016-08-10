@@ -1,0 +1,5 @@
+[
+  { "keys": ["ctrl+m"], //ctrl+m可以换成任意一组没有冲突的组合键
+    "command": "insert_date",
+    "args": {"format": "%Y-%m-%d\/\nT%H:%M"} },
+]
