@@ -1,5 +1,0 @@
-sudo add-apt-repository ppa:efl/trunk
-　　sudo apt-get update
-　　sudo apt-get install terminology
-
-这里面最奇异的终端是Terminology。它原本是为Enlightment设计的，它包括了目前我们看到的常规功能，并且还有我之前没有见过的功能。比如，直接在终端中播放流媒体，以及在文件列表中显示略缩图。
