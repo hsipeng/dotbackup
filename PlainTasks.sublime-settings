@@ -1,0 +1,32 @@
+{
+	"archive_name": "Archive:",
+	"bar_empty": "☐",
+	"before_tasks_bullet_margin": 1,
+	"cancelled_tasks_bullet": "[-]",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai - Spacegray (SL).tmTheme",
+	"date_format": "(%y-%m-%d %H:%M)",
+	"done_tag": true,
+	"done_tasks_bullet": "[x]",
+	"draw_indent_guides": false,
+	"extensions":
+	[
+		"TODO",
+		"todo",
+		"todolist",
+		"taskpaper",
+		"tasks"
+	],
+	"fade_fold_buttons": false,
+	"fold_buttons": true,
+	"gutter": true,
+	"line_numbers": false,
+	"margin": 2,
+	"match_brackets": false,
+	"new_on_top": true,
+	"open_tasks_bullet": "[ ]",
+	"project_tag": true,
+	"show_remain_due": false,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"use_tab_stops": false
+}

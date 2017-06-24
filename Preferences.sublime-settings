@@ -14,7 +14,8 @@
 	"color_scheme": "Packages/User/SublimeLinter/Monokai - Spacegray (SL).tmTheme",
 	"command": "markdown_slideshow",
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 9,
+	"font_face": "mononoki-Regular",
+	"font_size": 10,
 	"ignored_packages":
 	[
 		"Vintage"
