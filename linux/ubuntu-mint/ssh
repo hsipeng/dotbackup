@@ -1,4 +1,0 @@
-使用putty的ssh代理功能 
-ubuntu下只需要执行 sudo apt-get install putty 
-很简单就可以安装完成了，安装完成后只需要执行  
-plink -C -D 127.0.0.1:7070 -N -pw 密码 用户名@jp04.dearip.me -P 32123

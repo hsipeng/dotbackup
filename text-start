@@ -1,7 +1,0 @@
-systemctl disable lightdm.service
-
-ubuntu 16.04
-
-start x
-
-sudo service lightdm start
