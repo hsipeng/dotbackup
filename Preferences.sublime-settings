@@ -16,6 +16,7 @@
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "mononoki-Regular",
 	"font_size": 10,
+	"git_command": "C:/Program Files/Git/cmd/git.exe",
 	"ignored_packages":
 	[
 		"Vintage"

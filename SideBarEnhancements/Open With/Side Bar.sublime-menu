@@ -50,7 +50,22 @@
 				"open_automatically" : false // will close the view/tab and launch the application
 			},
 
-			{"caption":"-"}
+			{"caption":"-"},
+
+			//gitbash
+			{
+				"caption": "gitBash",
+				"id": "side-bar-files-open-with-seamonkey",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\Program Files\\Git\\git-bash.exe", //
+									"extensions":"", //open all even folders
+									"args":[]
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			}
 		]
 	}
 ]
