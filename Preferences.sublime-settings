@@ -11,7 +11,7 @@
 		}
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/SublimeLinter/Spaceblack-Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai - Spacegray (SL).tmTheme",
 	"command": "markdown_slideshow",
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
@@ -20,13 +20,13 @@
 		".git",
 		"node_modules"
 	],
-	"font_face": "mononoki-Regular",
-	"font_size": 10,
+	"font_face": "MonokaiYaHei",
+	"font_size": 12,
 	"git_command": "C:/Program Files/Git/cmd/git.exe",
 	"ignored_packages":
 	[
-		"Vintage",
-		"WakaTime"
+		"0_package_control_loader",
+		"Vintage"
 	],
 	"rulers":
 	[
@@ -38,60 +38,95 @@
 	"theme": "Spaceblack.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+	"user":
+	{
+		"debug": true,
+		"delay": 0.25,
+		"error_color": "D02000",
+		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+		"gutter_theme_excludes":
+		[
+		],
+		"lint_mode": "background",
+		"linters":
+		{
+			"eslint":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"jshint":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"php":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			}
+		},
+		"mark_style": "outline",
+		"no_column_highlights_line": false,
+		"passive_warnings": false,
+		"paths":
+		{
+			"linux":
+			[
+			],
+			"osx":
+			[
+			],
+			"windows":
+			[
+				"/c/Users/Administrator/AppData/Roaming/npm/eslint.cmd"
+			]
+		},
+		"python_paths":
+		{
+			"linux":
+			[
+			],
+			"osx":
+			[
+			],
+			"windows":
+			[
+			]
+		},
+		"rc_search_limit": 3,
+		"shell_timeout": 10,
+		"show_errors_on_save": false,
+		"show_marks_in_minimap": true,
+		"syntax_map":
+		{
+			"html (django)": "html",
+			"html (rails)": "html",
+			"html 5": "html",
+			"javascript (babel)": "javascript",
+			"magicpython": "python",
+			"php": "html",
+			"python django": "python",
+			"pythonimproved": "python"
+		},
+		"warning_color": "DDB700",
+		"wrap_find": true
+	},
 	"word_wrap": true,
-	"wrap_width": 120,
-	"user": {
-        "debug": true,
-        "delay": 0.25,
-        "error_color": "D02000",
-        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
-        "gutter_theme_excludes": [],
-        "lint_mode": "background",
-        "linters": {
-            "eslint": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "jshint": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "php": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            }
-        },
-        "mark_style": "outline",
-        "no_column_highlights_line": false,
-        "passive_warnings": false,
-        "paths": {
-            "linux": [],
-            "osx": [],
-            "windows": ["/c/Users/Administrator/AppData/Roaming/npm/eslint.cmd"]
-        },
-        "python_paths": {
-            "linux": [],
-            "osx": [],
-            "windows": []
-        },
-        "rc_search_limit": 3,
-        "shell_timeout": 10,
-        "show_errors_on_save": false,
-        "show_marks_in_minimap": true,
-        "syntax_map": {
-            "html (django)": "html",
-            "html (rails)": "html",
-            "html 5": "html",
-            "javascript (babel)": "javascript",
-            "magicpython": "python",
-            "php": "html",
-            "python django": "python",
-            "pythonimproved": "python"
-        },
-        "warning_color": "DDB700",
-        "wrap_find": true
-    }
+	"wrap_width": 120
 }
