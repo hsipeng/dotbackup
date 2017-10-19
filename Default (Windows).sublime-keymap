@@ -1,0 +1,9 @@
+[
+    {
+  "keys": ["ctrl+alt+t"],
+  "command": "open_terminal",
+  "args": {
+    "parameters": ["-T", "Working in directory %CWD%"]
+  }
+}
+]
