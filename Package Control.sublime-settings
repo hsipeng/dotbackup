@@ -33,12 +33,12 @@
 		"SublimeAStyleFormatter",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"SublimeREPL",
 		"Table Editor",
 		"Theme - Soda SolarizedDark",
 		"Theme - Spaceblack",
 		"Vue Syntax Highlight",
-		"Vuejs Snippets",
-		"WakaTime"
+		"Vuejs Snippets"
 	]
 }
