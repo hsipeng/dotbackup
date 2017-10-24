@@ -1,0 +1,47 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1Self",
+		"AdvancedNewFile",
+		"AutoFileName",
+		"Babel",
+		"Better Completion",
+		"ColorPicker",
+		"CSS Format",
+		"CTags",
+		"DocBlockr",
+		"EasyClangComplete",
+		"Emmet",
+		"Git",
+		"HTML-CSS-JS Prettify",
+		"IMESupport",
+		"InsertDate",
+		"JavaScript Completions",
+		"JavaScriptNext - ES6 Syntax",
+		"JsFormat",
+		"MarkdownHighlighting",
+		"Monokai - Spacegray",
+		"Nodejs",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"PlainTasks",
+		"Sass",
+		"SASS Build",
+		"SideBarEnhancements",
+		"SublimeAStyleFormatter",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeREPL",
+		"Table Editor",
+		"Terminal",
+		"Theme - Spaceblack",
+		"Vue Syntax Highlight",
+		"Vuejs Snippets",
+		"WakaTime"
+	]
+}
